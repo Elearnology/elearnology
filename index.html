@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elearnology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"> <a href="">Elearnology</a></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-it-works">How we work</a></li>
+            <li><a href="#book-a-class">Book a class</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <h1><a href="#home">Elearnology</a></h1>
+    </div>
+
+    <br><br><br>
+
+    <div class="home" id="#home">
+        <div class="left-text">
+            <h1>Welcome to Elearnology</h1>
+            <p>We are a non-profit Dedicated to provide free and quality <br> Education to students of class 1 to 6,
+                residing in India.</p>
+            <div class="button">
+                <a href="#about">
+                    <button class="btn">About us</button>
+                </a>
+            </div>
+        </div>
+        <div class="right-img">
+            <img src="img/logo.png" alt="logo" width="500px">
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class="about" id="about">
+        <h1>ABOUT US</h1>
+        <p>Founded in August 2021, E-learnology is a non-profit organization dedicated to Teach middle school Students,
+            in India. our aim is to provide free and quality Education to all students from class 1 to 6 residing in
+            India.
+            Every Sunday we teach students, different subjects according to their curriculam. to book a class for your
+            child visit <a href="#">here</a>
+        </p>
+    </div>
+
+    <br><br><br> <br><br><br>
+
+
+
+    <h1>HOW IT WORKS?</h1>
+    <br><br><br>
+    <div class="how-it-works" id="how-it-works">
+        <div style="background-image: url(img/BOOK\ A\ CLASS.png);
+        background-repeat: no-repeat; background-size: cover;" class="card"></div>
+
+        <div style="background-image: url(img/WAIT\ FOR\ OUR\ RESPONSE.png); background-repeat: no-repeat; background-size: cover;"
+            class="card"></div>
+
+        <div style="background-image: url(img/JOIN\ THE\ MEETING.png); background-repeat: no-repeat; background-size: cover;"
+            class="card"></div>
+    </div>
+
+
+    <br><br><br><br> <br><br><br> <br>
+    <h1>BOOK A CLASS</h1>
+    <br><br><br><br>
+
+
+    <div class="book-a-class" id="book-a-class">
+        <form action="https://formspree.io/f/mayapkvp" method="POST">
+            <input type="text" name="nameofyourchild" placeholder="Child's Name" required>
+            <input type="text" name="age" placeholder="Child's Age" required>
+            <input type="text" name="email" placeholder="Enter email address" required>
+            <input type="text" name="Gender" placeholder="Gender">
+            <input type="text" name="place" placeholder="City">
+
+
+            <select name="grade" id="select" required>
+                <option value="1" >Grade 1</option>
+                <option value="1">Grade 2</option>
+                <option value="1">Grade 3</option>
+                <option value="1">Grade 4</option>
+                <option value="1">Grade 5</option>
+                <option value="1">Grade 6</option>
+
+            </select>
+            <select name="time" id="select" required>
+                <option value="0">Select your slot</option>
+                <option value="1">1:00 pm - 2:00 pm</option>
+                <option value="2">2:00 pm - 3:00 pm</option>
+                <option value="3">3:00 pm - 4:00 pm</option>
+                <option value="4">4:00 pm - 5:00 pm</option>
+            </select>
+            <select name="subject" id="select" required>
+
+                <option value="0">Select your Subject</option>
+                <option value="1">English</option>
+                <option value="2">Math</option>
+                <option value="3">Science</option>
+                <option value="4">Social Studies</option>
+                <option value="4">Hindi</option>
+            </select>
+
+            <div class="button">
+                <button type="submit">Book my class</button>
+            </div>
+
+        </form>
+        <br><br><br><br><br>
+    </div>
+
+   
+
+    
+
+
+</body>
+
+</html>
